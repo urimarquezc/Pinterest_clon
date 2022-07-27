@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,900&display=swap');
+
+body{
+    margin: 1rem;
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+    display: block;
+    transition: .2s ease all;
+}
+
+img:hover{
+    opacity: 0.4;
+}
+
+.galery{
+    position: absolute;
+    columns: 8 200px;
+    column-gap: 0.5em;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.menu{
+    visibility: hidden ;
+}
+
+.menu__img{
+    height: 30px;
+    margin: 36px;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu__img2{
+    height: 20px;
+    margin: 36px;
+    float: right;
+    margin-left: 1px;
+}
+
+.menu__list{
+    float: left;
+    display: flex;
+    margin-top: 11px;
+    margin-left:20px;
+}
+
+
+.list__item{
+    color: black;
+    margin: 20px;
+    margin-top: 33px;
+    font-size: 12px;
+}
+
+.list__item a{
+    color: black;
+}
+
+
+.list__item2 input{
+    margin-top: 23px;
+    font-size: 12px;
+    margin-left: 20px;
+    height: 30px;
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background: rgb(230, 230, 230);
+    transition: .2s ease all;
+    float: left;
+}
+
+.list__item2 input:hover{
+    background: rgb(199, 199, 199);
+}
+
+.list__item1{
+    background: black;
+    color: black;
+    margin: 20px;
+    font-size: 15px;
+    width: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.list__item1 a{
+    padding: 12px;
+    color: white;
+    font-size: 12px;
+} 
+
+.menu__list2{
+    float: right;
+}
+
+@media screen and (min-width:750px) {
+    
+    .galery{
+    margin-top: 150px;
+    position: absolute;
+    columns: 8 200px;
+    column-gap: 0.5em;
+    }
+    .menu{
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .list__item2 input{
+        margin-top: 23px;
+        font-size: 12px;
+        margin-left: 20px;
+        height: 30px;
+        width: 40%;
+        border-radius: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        background: rgb(230, 230, 230);
+        transition: .2s ease all;
+        float: left;
+    }
+}
+
+@media screen and (min-width:1245px) {
+    .menu__img2{
+        height: 25px;
+        margin: 36px;
+        float: right;
+        margin-left: 1px;
+    }
+    .list__item{
+        color: black;
+        margin: 20px;
+        margin-top: 33px;
+        font-size: 17px;
+    }
+    .list__item1{
+        background: black;
+        color: black;
+        margin: 20px;
+        font-size: 20px;
+        width: 63px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .list__item1 a{
+        padding: 12px;
+        color: white;
+        font-size: 17px;
+    } 
+
+    .list__item2 input{
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 20px;
+        height: 30px;
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        background: rgb(230, 230, 230);
+        transition: .2s ease all;
+        float: left;
+    }
+}
+
+@media screen and (min-width:1700px) {
+    .list__item2 input{
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 20px;
+        height: 30px;
+        width: 60%;
+        border-radius: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        background: rgb(230, 230, 230);
+        transition: .2s ease all;
+        float: left;
+    }
+}
